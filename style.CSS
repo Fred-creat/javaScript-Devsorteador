@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,21 +7,21 @@
 
 
 body {
- display: flex;
- align-items: center; 
- justify-content: center;
- background-color: black;
- height: 100vh;
- margin-bottom: 50px;
- flex-direction: column;
- padding: 20px;
- width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+    margin-bottom: 50px;
+    flex-direction: column;
+    padding: 20px;
+    width: 100vw;
 
 
 }
 
 .input-one {
-   box-shadow: 50px;
+    box-shadow: 50px;
     border-radius: 5px;
     width: 200px;
     height: 40px;
@@ -29,17 +29,25 @@ body {
 
 
 .input-two {
- box-shadow: 50px;
+    box-shadow: 50px;
     border-radius: 5px;
     width: 200px;
     height: 40px;
-    
+
 }
 
 .sub-title {
     color: white;
     padding-bottom: 10px;
 }
+
+.result {
+    color: white;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
 
 button {
     margin-top: 20px;
@@ -51,10 +59,11 @@ button {
 
 button:active {
 
-   height: 35px;
-   color: #AEC346;
+    height: 35px;
+    color: #AEC346;
 }
+
 button:hover {
-font-style: italic;
-border-collapse: 5px;
+    font-style: italic;
+    border-collapse: 5px;
 }
